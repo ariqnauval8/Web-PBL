@@ -1,0 +1,49 @@
+.satu{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 50pt;
+    left: 50px;
+    bottom: -50px;
+}
+
+.dua{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 50pt;
+    position: absolute;
+    top: 100%;
+    left: 100%;
+}
+
+.tiga{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 50pt;
+
+}
+
+.container{
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+body{
+    text-align: center;
+}

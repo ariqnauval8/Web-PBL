@@ -1,0 +1,20 @@
+p{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    width: 100px;
+    background-color: aqua;
+    height: 100px;
+}
+
+ul{
+   color: blue;
+}
+
+
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+}
