@@ -1,0 +1,31 @@
+div{
+    border: 1px solid black;
+}
+
+.container{
+    display: flex;
+    border-color: blue;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.home{
+    border-color: red;
+}
+
+.container div:hover{
+    background-color: blueviolet;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.container-grid div{
+    border: 1px solid maroon;
+    min-height: 100px;
+    width: 100%;
+}
